@@ -1,0 +1,166 @@
+html, body{
+  margin: 0px;
+  width: 100%;
+  height: 100%;
+  color: black;
+  /*color: #ddda88;*/
+  font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+
+/*Elimina scrollbar */
+::-webkit-scrollbar {
+    display: none;
+}
+
+.gallery {
+  padding: 5px;
+}
+
+.row {
+  height: 100%;
+  margin: 0px;
+  padding-top: 48px;
+  padding-bottom: 48px;
+}
+
+.boton {
+  margin-bottom: 50px;
+}
+
+#txt-fotos {
+  text-align: center;
+  font-size: 30px;
+}
+
+#img-burro {
+  margin-bottom: 20px;
+}
+
+h3 {
+  font-family: 'Rouge Script', cursive;
+}
+
+#info {
+  margin: 0px;
+}
+
+#info h3 {
+  font-size: 50px;
+}
+
+.header {
+  background: url(images/f7.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 100%;
+  width: 100%;
+  background-size: cover;
+}
+
+#icono-saludo {
+  margin-bottom: 70px;
+}
+
+#saludo {
+  background: url(images/f6.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+#regalo {
+  padding: 48px;
+}
+
+#saludo h3 {
+  color: white;
+  font-size: 70px;
+  padding-top: 50px;
+}
+
+#regalo p {
+  text-transform: uppercase;
+  font-size: 15px;
+  margin-bottom: 20px;
+}
+
+#regalo h4 {
+  text-transform: uppercase;
+  margin-top: 30px;
+  padding-bottom: 0px;
+}
+
+p.horaEvento {
+  font-size: 30px;
+  font-weight: 400;
+  text-transform: uppercase;
+  padding: 0;
+  margin: 0;
+}
+
+#cuando {
+  margin: 0px;
+}
+
+#cuando h3 {
+  font-size: 60px;
+}
+
+#cuando a {
+color: #c3b57b;
+text-transform: uppercase;
+border: 1px solid #c3b57b;
+padding: 5px 10px;
+border-radius: 4px;
+text-decoration: none;
+}
+
+h1 {
+  text-transform: uppercase;
+  font-size: 30px;
+  font-weight: 300;
+  padding-top: 50px;
+  margin: 0;
+}
+
+h2 {
+  text-transform: uppercase;
+  font-size: 20px;
+  font-weight: 300;
+  padding: 0;
+  margin: 0;
+}
+
+/*titulo de regalo*/
+#titulo-regalo {
+  font-size: 50px;
+}
+
+.nombre{
+  margin-top: 30px;
+  font-size: 55px;
+  margin-bottom: 10px;
+  font-family: 'Rouge Script', cursive;
+  text-align: center;
+}
+
+#clockdiv{
+	display: inline-block;
+	font-weight: 100;
+	text-align: center;
+	font-size: 40px;
+}
+
+#clockdiv > div{
+	padding: 5px;
+	display: inline-block;
+}
+
+#clockdiv div > span{
+	display: inline-block;
+}
+
+.smalltext{
+  text-transform: uppercase;
+	font-size: 16px;
+}
